@@ -1,10 +1,10 @@
 (function($, window) {
-    $('#owl-vitrine').owlCarousel({
-        loop: true,
+    $('.owl-vitrine').owlCarousel({
+        loop: false,
         autoplay: true,
         margin: 0,
         nav: false,
-        dots: false,
+        dots: true,
         responsive:{
             0:{
                 items:1
@@ -16,5 +16,13 @@
                 items:1
             }
         }
+    });
+
+    $(document).ready(function(){
+        $('.hover').hover(function(){
+            $(this).addClass('flip');
+        },function(){
+            $(this).removeClass('flip');
+        });
     });
 })(jQuery, window);
