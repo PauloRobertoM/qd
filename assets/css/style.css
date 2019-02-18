@@ -287,6 +287,7 @@ header ul.nav>li.redes-sociais>a .fa {
 .flip > .back p {
     font-size: 14px;
     color: #b1b1b1;
+    margin: 0;
 }
 
 .itens {
@@ -543,6 +544,9 @@ header ul.nav>li.redes-sociais>a .fa {
 .menu-footer .nav>li>a:hover {
     background-color: transparent;
 }
+.menu-footer ul.nav>li:first-child>a {
+    padding: 0 15px 0 0;
+}
 .menu-footer ul.nav>li.redes-sociais {
     display: flex;
 }
@@ -569,17 +573,34 @@ header ul.nav>li.redes-sociais>a .fa {
 
 footer {
     background: url(../images/bg-footer.jpg) no-repeat;
+    background-position: bottom center;
     background-size: cover;
     width: 100%;
     height: 136px;
+    display: flex;
+    align-items: center;
+}
+footer span {
+    font-size: 13px;
+    font-weight: 300;
+    color: #444444;
+}
+footer a {
+    font-size: 12px;
+    color: #666666;
+}
+footer img {
+    margin-left: 10px;
 }
 
 /* --- MOBILE --- */
 @media (max-width: 767px) {
+    .navbar-header img {
+        width: 220px;
+    }
     #bs-example-navbar-collapse-1 {
         float: none;
-        background: url(../images/topo.jpg) no-repeat;
-        background-size: cover;
+        background: #fff;
         z-index: 300;
         position: relative;
         min-height: 300px;
@@ -587,14 +608,11 @@ footer {
         padding: 10px 30px;
         width: 100%;
         margin: 0 auto;
-        top: -30px;
+        top: -44px;
     }
     .navbar-toggle {
         padding: 15px 15px;
-        margin-top: 20px;
-    }
-    .navbar-toggle {
-        margin-top: 75px;
+        margin-top: 40px;
     }
     .navbar-header {
         height: 90px;
@@ -610,10 +628,87 @@ footer {
     .navbar-nav>li>a {
         padding: 15px 10px!important;
     }
+    header ul.nav>li:before {
+        display: none;
+    }
+    header ul.nav>li.redes-sociais {
+        justify-content: space-evenly;
+        margin: 10px 0 30px;
+    }
+    .vitrine img {
+        height: 300px;
+    }
+    .vitrine .conteudo {
+        height: 300px;
+        margin-top: -300px;
+        padding: 0 15px;
+    }
+    .vitrine h1 {
+        font-size: 16px;
+    }
+    .vitrine h4 {
+        font-size: 12px;
+    }
+    .infografico {
+        height: auto;
+        padding-bottom: 15px;
+    }
+    .flip {
+        margin-bottom: 15px;
+    }
+    .itens {
+        padding: 30px 0;
+    }
+    .itens .btn-azul {
+        margin-bottom: 30px;
+    }
+    .fale-conosco {
+        padding: 30px 0;
+    }
+    .fale-conosco form {
+        padding: 30px 15px;
+    }
+    .menu-footer ul.nav>li:before {
+        display: none;
+    }
+    .menu-footer ul.nav.navbar-nav.pull-right {
+        display: flex!important;
+        justify-content: center;
+    }
+    footer span {
+        text-align: center;
+        margin-bottom: 20px;
+    }
 }
 @media (min-width: 768px) and (max-width: 991px) {
-
+    .navbar-header img {
+        width: 180px;
+    }
+    header ul.nav>li>a {
+        font-size: 10px;
+        padding: 0 5px 0 10px;
+    }
+    .flip > .front h2 {
+        font-size: 16px;
+    }
+    .flip > .back p {
+        font-size: 12px;
+    }
+    .itens span {
+        font-size: 16px;
+    }
+    .itens h4 {
+        font-size: 12px;
+    }
+    .itens h3 {
+        font-size: 14px;
+    }
+    .itens p {
+        font-size: 12px;
+    }
 }
-@media (min-width: 992px) and (max-width: 1100px) {
-
+@media (min-width: 992px) and (max-width: 1024px) {
+    .navbar-header img {
+        width: 230px;
+    }
 }

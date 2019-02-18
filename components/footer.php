@@ -19,14 +19,10 @@
 
         <footer>
 			<div class="container">
-				<span>© SKA Comunicação - todos os direitos reservados</span>
+				<span class="pull-left"><b>QUESTÃO DEMAIS</b> - INTELIGÊNCIA EM AVALIAÇÃO EDUCACIONAL</span>
 
-				<ul>
-					<li><a href="" class="hvr-float-shadow"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
-					<li><a href="" class="hvr-float-shadow"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-				</ul>
+                <span class="pull-right"><a href="" target="_blank">DESENVOLVIDO POR: <img src="assets/images/logo-footer.png"></a></span>
 			</div><!-- container -->
-            <img src="assets/images/borda-footer.jpg">
         </footer>
 
         <script type='text/javascript' src='assets/js/jquery.js'></script>
