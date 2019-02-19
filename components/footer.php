@@ -1,3 +1,48 @@
+        <section class="fale-conosco">
+            <div class="container">
+                <h2>FALE CONOSCO</h2>
+                <form>
+                    <div class="row">
+                        <div class="col-md-4 col-sm-4">
+                            <div class="form-group">
+                                <label>NOME</label>
+                                <div class="oddT-icon-input">
+                                    <input type="text" class="oddT-text" >
+                                    <i class="fa fa-user" aria-hidden="true"></i>
+                                </div><!-- oddT-icon-input -->
+                            </div><!-- form-group -->
+                        </div><!-- md-4 -->
+                        <div class="col-md-4 col-sm-4">
+                            <div class="form-group">
+                                <label>E-MAIL</label>
+                                <div class="oddT-icon-input">
+                                    <input type="text" class="oddT-text" >
+                                    <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                                </div><!-- oddT-icon-input -->
+                            </div><!-- form-group -->
+                        </div><!-- md-4 -->
+                        <div class="col-md-4 col-sm-4">
+                            <div class="form-group">
+                                <label>TELEFONE</label>
+                                <div class="oddT-icon-input">
+                                    <input type="text" class="oddT-text" >
+                                    <i class="fa fa-phone" aria-hidden="true"></i>
+                                </div><!-- oddT-icon-input -->
+                            </div><!-- form-group -->
+                        </div><!-- md-4 -->
+                    </div><!-- row -->
+                    <div class="form-group">
+                        <label>MENSAGEM</label>
+                        <div class="oddT-icon-input">
+                            <textarea class="oddT-text" rows="5"></textarea>
+                            <i class="fa fa-commenting-o" aria-hidden="true"></i>
+                        </div><!-- oddT-icon-input -->
+                    </div><!-- form-group -->
+                    <button href="">ENVIAR</button>
+                </form>
+            </div><!-- container -->
+        </section><!-- fale-conosco -->
+
         <section class="menu-footer">
             <div class="container">
                 <ul class="nav navbar-nav pull-left">

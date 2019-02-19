@@ -88,7 +88,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6 col-sm-6">
-					<h2><img src="assets/images/icon-noticias.png"> NOTICIAS E EVENTOS</h2>
+					<h2><img src="assets/images/icon-noticias.png"> NOTÍCIAS E EVENTOS</h2>
 					<div class="item">
 						<div class="row">
 							<a href="">

@@ -13,7 +13,7 @@
         <title>QD+ Questão Demais</title>
 
         <link rel="icon" href="assets/images/favicon.jpg" type="image/x-icon" />
-        <link href="https://fonts.googleapis.com/css?family=Lato:300,700,900" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
 
         <link rel='stylesheet' href='assets/css/bootstrap.min.css' type='text/css' />
         <link rel='stylesheet' href='assets/css/hover-min.css' type='text/css' />
